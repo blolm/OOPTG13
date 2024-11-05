@@ -14,12 +14,12 @@ public class Ampel implements Runnable{
 	public static final int GRUEN=4;
 	int zustand = ROT;
 	
-	public Ampel(String name, int waitrot, int waitrotgelb, int waitgelb, int waitgrün) {
+	public Ampel(String name, int waitrot, int waitrotgelb, int waitgelb, int waitgruen) {
 		this.name = name;
 		this.waitrot = waitrot;
 		this.waitrotgelb = waitrotgelb;
 		this.waitgelb = waitgelb;
-		this.waitgruen = waitgrün;
+		this.waitgruen = waitgruen;
 		t = new Thread(this);
 	}
 	
@@ -46,7 +46,7 @@ public class Ampel implements Runnable{
 			break;
 			
 			case GRUEN:
-			System.out.println(name+"      Grün");
+			System.out.println(name+"      Grï¿½n");
 			wait(waitgruen);
 			zustand = ROT;
 			break; 
