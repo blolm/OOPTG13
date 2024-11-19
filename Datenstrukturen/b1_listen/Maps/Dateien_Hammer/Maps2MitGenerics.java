@@ -14,5 +14,9 @@ public class Maps2MitGenerics {
         for (Map.Entry m : map.entrySet()) {
             System.out.println(m.getKey() + " " + m.getValue());
         }
+        for (Integer m : map.keySet()) {
+            System.out.println(m + " " + map.get(m));
+        }
+        
     }
 }

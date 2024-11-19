@@ -1,5 +1,3 @@
-package a02_Stack;
-
 import java.util.Stack;
 
 public class MyStack {
@@ -22,9 +20,9 @@ public class MyStack {
 		
 		System.out.println();
 		
-		//Element an oberste Stelle des Stacks löschen
+		//Element an oberste Stelle des Stacks lï¿½schen
 		//.pop();
-		System.out.println("Element an der Spitze des Stacks löschen:	.pop()");
+		System.out.println("Element an der Spitze des Stacks lï¿½schen:	.pop()");
 		System.out.println("Stack:		" + tiere);
 		tiere.pop();
 		System.out.println("Updatet Stack:	" + tiere);
@@ -46,9 +44,9 @@ public class MyStack {
 		
 		System.out.println();
 		
-		//Überprüfen ob Stack leer ist
+		//ï¿½berprï¿½fen ob Stack leer ist
 		//.empty();
-		System.out.println("Überprüfen ob Stack leer ist:			.empty()");
+		System.out.println("ï¿½berprï¿½fen ob Stack leer ist:			.empty()");
 		System.out.println("ist der Stack leer? "+tiere.empty());
 	}
 }

@@ -15,5 +15,9 @@ class Maps {
     for (String i : people.keySet()) {
       System.out.println("key: " + i + " value: " + people.get(i));
     }
+
+    for (Integer i : people.values()) {
+      System.out.println(i);
+    }
   }
 }

@@ -11,6 +11,6 @@ public class Knoten{
 
  @Override
  public String toString() {
-    return "Wert: "+Wert;
+    return "Wert: "+ wert;
  }
 }
