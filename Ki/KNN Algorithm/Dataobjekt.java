@@ -6,10 +6,16 @@ public class Dataobjekt {
     int klasse = -1;
 
     
-    public dataobjekt(int x, int y, int k){
+    public Dataobjekt(int x, int y, int klasse){
         this.x = x;
         this.y = y;
-        this.klasse = k;
+        this.klasse = klasse;
+    }
+
+    public Dataobjekt(int x, int y){
+        this.x = x;
+        this.y = y;
+        klasse = -1;
     }
     
 public void setX(int x) {

@@ -29,7 +29,7 @@ main(){
 
 ## Pseudocode kNN
 ```python
-+knn(neu:Dataobjekt, testdaten:Dataobjekt[], k:int)
++knn(neu:Dataobjekt, testdaten:Dataobjekt[], k:int):int
 abstaende:Map<double, Dataobjekt> <- new TreeMap<>()
 FÜR o:testdaten
     dist <- getDistance(neu, o)
